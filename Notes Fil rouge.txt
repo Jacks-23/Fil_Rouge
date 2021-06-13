@@ -1,0 +1,62 @@
+Question sur la connexion du candidat:
+-On peut imaginer 3 cas:
+-Premier cas : le candidat se connecte à l'application avec un identifiant et un mdp atribué pour se connecter au questionnaire.
+-Deuxième cas : le candidat se connecte via l'url envoyé par l'agent de recrutement directement à son questionnaire mais 
+-Troisième cas : le candidat accède à la partie candiat du site sans se connecter, choisis son niveau et renseigne son nom et prénom. Au moment de commencer le questionnaire, un identifiant est généré automatiquement par l'application pour le différencier des autres candidats.
+
+Hypothèse : Toutes les questions dans la base de donnée de questions sont des questions validés(ex:orthographe) avec des réponses.
+
+Résumé des objectifs
+Faire un site où un candidat utilise une url pour accéder à un questionnaire.
+Le questionnaire commence par une page avec nom et prénom.
+Puis commence les questions En fonction du niveau.
+Il répond à une serie de questions sur des thèmes différents et valide ses réponses à la fin.
+Le candidat tombe sur une page de fin de qustionnaire où il valide la fin du questionnaire avec en prime le temps passé pour faire le questionnaire.
+
+
+Aussi, il faut trois questionnaires de niveaux différents qui seront composé par des questions de trois niveau différentes. Les pourcentages de questions dans tel ou tel questionnaire est variable.
+
+Aussi, il faut être capable
+
+Conseil : prévoir le visuel des écrans à produire
+lister les écrans à faire.
+
+
+Page administrateur : login mot de passe.
+- Ajout d-agent de recrutement
+- Ajout de questions/réponses.
+
+Pour la page de connexion on a deux possibilités :
+- Soit on a une pop up avec êtes vous agent de recrutement, ou administrateur.
+- Soit on peut se connecter directement peu importe le statut et l'appli reconnait le statut 
+
+
+On fait une page pop up avec la possibilité d'accéder à la page de connexion administrateur ou connexion agent de recrutement 
+Finalement on considère que dans la base de donnée il est renseigné si c'est un administrateur et un agent de recturement. 
+
+Ajouter Reactive Form builder
+
+API : Application Programming Interface, moyen de communication entre deux logiciels.
+
+Note pour la création de l'API :
+1- Dans visual studio code dans le terminal du dossier 
+2- npm init -y 
+pour mettre en place un nouveau ou package existant sans poser de questions.
+(je pense qu'il fait ça pour véirifer que le package express don't on a besoin n'est pas installé.
+3- npm install express
+On en a besoin pour les API, express aparaît dans les dependencies
+Après voir fichier JS
+
+install nodemon et mettre dans le scripts de package.json : "start":"nodemon TestApi.js".
+
+MongoDB est utilisé pour faire le lien entre une base de données et l'API (à voir si c'est utile pour nous)
+ 
+On va plutôt faire avec Entity comme appris.
+l'architecture pour le découpage en couches peut être le suivant :
+- Project.core : avec le view model et les interfaces;
+- Project.DAL : Data Access layer base de données.
+- Project.BLL : Business logic layer (la partie business à définir)
+- Project.Web : L'application Web avec l'api du coup.
+
+On a donc Core qui ne dépend de rien
+DAL qui est indépendant aussi
