@@ -1,0 +1,15 @@
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\bin\Debug\FilRouge.DAL.dll.config
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\bin\Debug\FilRouge.DAL.dll
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\bin\Debug\FilRouge.DAL.pdb
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\bin\Debug\EntityFramework.dll
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\bin\Debug\EntityFramework.xml
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\obj\Debug\FilRouge.DAL.csproj.CoreCompileInputs.cache
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\obj\Debug\FilRouge.DAL.csproj.CopyComplete
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\obj\Debug\FilRouge.DAL.dll
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\obj\Debug\FilRouge.DAL.pdb
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\obj\Debug\FilRouge.DAL.Migrations.InitialCreate.resources
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\obj\Debug\FilRouge.DAL.csproj.GenerateResource.cache
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\obj\Debug\FilRouge.DAL.Migrations.UpdateDatabase.resources
+C:\Users\jacks\Documents\Fil rouge\FilRouge\FilRouge.DAL\obj\Debug\FilRouge.DAL.csprojAssemblyReference.cache
