@@ -1,0 +1,41 @@
+﻿@model Quizz.Mvc.Web.Models.Question
+
+@{
+    ViewBag.Title = "Delete";
+}
+@Styles.Render("~/Content/Details.css")
+
+<h2>Suppression</h2>
+
+<div>
+    <h4>Question</h4>
+    <hr />
+    <dl class="principale">
+        <dt>
+            @Html.DisplayNameFor(model => model.Reponse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Reponse)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Difficulte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Difficulte)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Supprimer" class="btn btn-default" /> |
+            @Html.ActionLink("Retour", "Index")
+        </div>
+    }
+</div>

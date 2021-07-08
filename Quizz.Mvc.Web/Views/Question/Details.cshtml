@@ -1,0 +1,34 @@
+﻿@model Quizz.Mvc.Web.Models.Question
+
+@{
+    ViewBag.Title = "Details";
+}
+@Styles.Render("~/Content/Details.css")
+<h2>Details</h2>
+
+<div>
+    <h4>Question</h4>
+    <hr />
+    <dl class="principale">
+        <dt>
+            @Html.DisplayNameFor(model => model.Reponse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Reponse)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Difficulte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Difficulte)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Modifier", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Retour", "Index")
+</p>

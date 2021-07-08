@@ -1,0 +1,41 @@
+﻿body {
+
+    background: beige;
+}
+
+h2 {
+    margin-left: 40%;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+p {
+    margin-left: 15%;
+}
+
+table.tableau{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 65%;
+    background-color: whitesmoke;
+    color: lightcoral;
+    font-size: 15px;
+    margin: 0% 10%;
+
+}
+
+
+table.tableau td{
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-top: none;
+    text-align: center;
+    width: 2%;
+}
+
+table.tableau th {
+    border-bottom: solid;
+    border-color: blue;
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "MenuRecruteur";
+}
+
+
+@Styles.Render("~/Content/MenuRecruteur.css")
+
+<form>
+    <div class="titre">
+        <h1>Menu principal</h1>
+    </div>
+
+    <div class="paragraphe">
+        Quel menu voulez vous accéder :
+    </div>
+
+    <button class="bouton">
+        @Html.ActionLink("Candidat", "Index", "Candidat", new { }, new { @class = "linkcolor" })
+    </button>
+
+    <button class="bouton">
+        @Html.ActionLink("Question", "Index", "Question", new { }, new { @class = "linkcolor" })
+    </button>
+
+    <button class="bouton">
+        @Html.ActionLink("Quiz", "Index", "Quizz", new { }, new { @class = "linkcolor" })
+    </button>
+
+    <button class="retour">
+        @Html.ActionLink("Deconnexion", "ConnexionAdmin", "Home", new { @class = "linkcolor" })
+    </button>
+
+</form>

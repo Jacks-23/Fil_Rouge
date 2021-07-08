@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "ConnexionRecruteur";
+}
+
+
+@Styles.Render("~/Content/Connexion.css")
+<body>
+    <form>
+        <h1 class="titre">Connexion recruteur</h1>
+        <label class="Identifiant">Identifiant</label>
+        <input type="text" class="Identifiantbox">
+        <div>
+            <label class="MotdePasse">Mot de passe</label>
+            <input type="text" class="MotdePassebox">
+        </div>
+        <button class="connecte">
+            @Html.ActionLink("Connexion", "MenuRecruteur", "Home", new { @class = "linkcolor" })
+        </button>
+        <button class="retour">
+            @Html.ActionLink("Retour", "Index", "Home", new { @class = "linkcolor" })
+        </button>
+    </form>
+</body>
+
